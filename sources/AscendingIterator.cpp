@@ -28,7 +28,7 @@ namespace ariel
     {
         if (&m_container != &other.m_container)
         { // checking if the container are not the same
-            throw std::runtime_error("Not the same container");
+            throw std::runtime_error("Not the same container.");
         }
         if (this != &other)
         {
