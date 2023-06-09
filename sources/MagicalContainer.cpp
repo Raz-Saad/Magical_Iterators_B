@@ -53,8 +53,8 @@ namespace ariel
         }
 
         m_array.erase(iter);
-        if (isPrime(element))
-            reorder_prime(); // after we remove a prime elemnt from m_array we need to update the m_prime_array
+
+        reorder_prime(); // after we remove an elemnt from m_array we need to update the m_prime_array
     }
     // return the size of m_array
     size_t MagicalContainer::size()
