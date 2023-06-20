@@ -121,7 +121,7 @@ namespace ariel
                 return *this;
             }
         }
-        else // if the size of the container is odd we need to check if end==start on m_start_iter turn
+        else // if the size of the container is odd we need to check if start==end on m_start_iter turn
         {
             if (m_decisive == 1)
             { // we decrease the iterator by 1 and then update decisive to 0 so next turn we will look at m_start_iter
